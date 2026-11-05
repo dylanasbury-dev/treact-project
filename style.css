@@ -332,8 +332,8 @@ border: lightgray solid 1px;
 
 .email__label{
 position: absolute;
-top: 423px;
-left: 130px;
+top: 403px;
+left: 140px;
 color:#D3DBE0;
 }
 
@@ -347,7 +347,7 @@ color:#D3DBE0;
  border: solid transparent;
  font-weight: 700;
  position:absolute;
- top: 409px;
+ top: 389px;
  left: 425px;
  letter-spacing: 0.3px;
  font-size: 16px;
@@ -728,9 +728,6 @@ top: 4px;
 left: 4px;
 }
 
-.value{
-
-}
 
 .value__img--wrapper--mover{
 display: flex;
@@ -1257,9 +1254,7 @@ footer {
     overflow: hidden;
 }
 
-.footer__description{
 
-}
 
 .footer__columns{
 display: flex;
@@ -1395,11 +1390,12 @@ MOBILE RESPONSIVENESS ↓
 @media(max-width: 1280px) {
 
 .about__btn{
+top: 389px;
 left: 340px;
 }
 
 .email__label{
-left: 60px;
+left: 70px;
 }
 
     header .row {
